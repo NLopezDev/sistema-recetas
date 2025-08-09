@@ -138,42 +138,7 @@ function showWelcome() {
     }, 100);
 }
 
-// Función de prueba temporal
-function testDashboard() {
-    console.log('=== PRUEBA DE DASHBOARD ===');
-    
-    const loginSection = document.getElementById('loginSection');
-    const dashboardSection = document.getElementById('dashboardSection');
-    
-    console.log('loginSection:', loginSection);
-    console.log('dashboardSection:', dashboardSection);
-    
-    if (loginSection) {
-        console.log('Ocultando login section...');
-        loginSection.style.display = 'none';
-        console.log('Login section display:', loginSection.style.display);
-    }
-    
-    if (dashboardSection) {
-        console.log('Mostrando dashboard section...');
-        dashboardSection.style.display = 'block';
-        console.log('Dashboard section display:', dashboardSection.style.display);
-    }
-    
-    // Simular usuario
-    currentUser = { name: 'Usuario de Prueba', email: 'test@test.com' };
-    
-    // Actualizar navegación
-    const navMenu = document.getElementById('navMenu');
-    if (navMenu) {
-        navMenu.innerHTML = `
-            <div class="nav-user">Bienvenido, ${currentUser.name}</div>
-            <a href="#" class="nav-link" onclick="logout()">Cerrar Sesión</a>
-        `;
-    }
-    
-    console.log('=== PRUEBA COMPLETADA ===');
-}
+
 
 // Mostrar dashboard
 function showDashboard() {
