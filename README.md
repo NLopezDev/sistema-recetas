@@ -59,6 +59,22 @@ private $password = '';
 ### 5. Acceder al sistema
 Abre tu navegador y ve a: `http://localhost/sistema-recetas/`
 
+## 🎮 Demo Online
+
+Para probar el sistema sin instalación, puedes usar la versión demo:
+
+### **Demo Estático (Sin Backend)**
+- **Archivo**: `demo.html`
+- **Funcionalidades**: Login demo, ver recetas, agregar recetas (temporales)
+- **Credenciales**: `demo@example.com` / `demo123`
+- **Limitaciones**: Los datos se pierden al recargar la página
+
+### **Demo en GitHub Pages**
+Si quieres hacer el demo accesible online, puedes:
+1. Renombrar `demo.html` a `index.html` en una rama separada
+2. Configurar GitHub Pages en esa rama
+3. El demo funcionará sin necesidad de servidor PHP
+
 ## 👤 Usuario de Prueba
 
 - **Email**: `test@example.com`
