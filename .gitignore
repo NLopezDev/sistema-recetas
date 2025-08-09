@@ -1,0 +1,42 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+.env
+config.local.php
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Cache
+cache/
+tmp/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de base de datos
+*.sql
+*.db
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de configuración de servidor local
+.htaccess.local
+
+# Archivos de sesión PHP
+sess_*
+
+# Archivos de error de PHP
+error_log
